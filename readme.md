@@ -1,3 +1,9 @@
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
 # Camera Mark
 
 ### Overview
@@ -38,16 +44,18 @@ python camera_mark.py --path ./input --output_folder ./output
 ```
 
 #### Demo
-<table>
+<table style="border:none">
     <tr>
         <td valign="top">
-            <img src="./input/DSC00649.JPG" alt="input image" width="250">
+            <img src="./input/DSC00649.JPG" alt="input image" width="250" style="border: 1px solid blue">
         </td valign="top">
         <td valign="top">
-            <img src="./output/marked_DSC00649.JPG" alt="output image" width="250">
+            <img src="./output/marked_DSC00649.JPG" alt="output image" width="250" style="border: 1px solid blue">
         </td valign="top">
     </tr>
 </table>
+
+💡 **Notice**: *The blue borders only exist in readme file in order to show the images' borders. The output of the script only contains the part inside the blue border.*
 
 ### Troubleshooting
 
